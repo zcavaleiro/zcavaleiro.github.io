@@ -1,0 +1,406 @@
+@import url(´https://fonts.googleapis.com/css?family=Poppins:400,500,700´);
+
+/*---overflow-x para o conteudo ficar todo na janela --*/
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+
+.offset:before{
+    height: 4.7rem;
+    margin-top: -4.7rem;
+    content:"";
+    display:block;
+}
+
+/*---estilo da navbar --*/
+.navbar {
+    text-transform: uppercase;
+    padding: .8rem;
+    font-weight:700;
+    font-size: .9rem;
+    background: rgba(0,0,0, .6)!important;
+}
+
+.navbar-brand img{
+    height:2.5rem;
+}
+
+.navbar-nav li {
+    padding-right: .9rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:white;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/*---tamanho da image slider --*/
+.carousel-item{
+    height:100vh;
+}
+
+/*--- Formatar texto do carousel; centro; sombra; --*/
+.carousel-caption {
+    position: absolute;
+    top: 38%;
+    text-transform: uppercase;
+    width:100%;
+    right: 0;
+    left: 0;
+}
+
+.carousel-caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .5rem;
+    text-shadow: .4rem .4rem .9rem #000;
+    padding-bottom: 3.5rem;
+}
+.carousel-caption h1 span{
+    color:#edbb00;
+}
+
+.carousel-caption h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-shadow: .4rem .4rem .9rem #000;
+    padding-bottom: 3.5rem;
+}
+.carousel-caption a{
+    background: #edbb00;
+    padding: 1rem 2rem;
+    display: inline-block;
+    margin-top: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius:1.5rem;
+}
+/*--- Formatar texto do carousel; centro; sombra; --*/
+.btn-lg{
+    border-width:medium;
+    border-radius: 1.4rem;
+    font-size: 1.4rem;
+}
+
+.btn-primary{
+    background-color: #007bff;
+    border: 1px solid #edbb00
+}
+.modal-dialog {
+    max-width: 1300px;
+    margin: 12.5vh auto;
+}
+
+.modal-body {
+position:relative;
+padding:0;
+}
+.close {
+position:absolute;
+right:-30px;
+top:0;
+z-index:999;
+font-size:2rem;
+font-weight: normal;
+color:rgb(0, 0, 0);
+opacity:1;
+}
+
+
+/*====inicio Serviços =====
+#servicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}*/
+.box{
+    position: relative;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.servicos2{
+    margin-top: 0rem
+}
+
+/*====fim Serviços =====*/
+.jumbotron {
+padding: 0 0 1rem;
+border-radius: 0;
+margin-bottom: 0;
+}
+h3.heading{
+    font-size:1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: .6rem;
+    margin-top: 2rem;
+}
+.heading-underline {
+    width:8rem;
+    height: .2rem;
+    background-color: #007bff;
+    margin:0 auto 1rem;
+}
+.fa-cogs{
+    color:#ff0000
+}
+.fa-sitemap{
+    color:#0000cd
+}
+.fa-database{
+    color:#616161
+}
+.fa-cogs, .fa-sitemap, .fa-database {
+    font-size: 4em;
+    margin: 1rem;
+}
+/*====A nossa Equipa =====*/
+.card {
+    opacity: 1;
+    display: block;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.card img{
+    filter: grayscale(1);
+}
+.card img:hover{
+    filter: grayscale(0);
+    cursor: zoom-in;
+}
+.card h4{
+    color: #007bff !important;
+}
+
+/*---Portfolio---*/
+.portfolio img {
+    max-width: 100%;
+    transition: transform .5s ease;
+    
+}
+.row.no-padding [class*=col-]{
+    padding: 0;
+    border: 0;
+}
+.portfolio img:hover {
+    transform: scale(1.2);
+    cursor: zoom-in;
+}
+.portfolio{
+    overflow:hidden;
+}
+
+/*---padding geral 
+
+.padding{
+    padding-bottom: 2rem;
+}
+--*/
+
+.narrow {
+    width:75%;
+    margin:0 auto;
+    padding-top: 2rem;
+}
+
+.btn-md {
+    border-width:medium;
+    border-radius: 0;
+    padding: .6rem 1.1rem;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+/*---Footer Contactos --*/
+footer{
+    margin-top: 6rem;
+    border:0;
+    
+
+}
+
+#Contactos{
+    background-color: #efefef;
+    margin-top: 0rem;
+    
+}
+
+.contact-form{
+    padding: .7rem;
+    margin-bottom: 5rem;
+    margin-top: 0;
+}
+
+.form-control{
+    border-radius: 0 !important;
+    border:none !important;
+}
+
+.follow{
+    background: #fff;
+    padding: .6rem;
+    margin: .7rem;
+}
+
+.contact-info .fa{
+    margin:7rem;
+    color: #007bff;
+    font-weight:bold;
+}
+/*
+    background-color: #3f3f3f;
+    color:white;
+    padding-top:2rem;
+}
+*/
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.social a {
+    font-size: 4.5rem;
+    padding: 3rem;
+}
+
+.fa-facebook{
+    color:#3b5998;
+}
+.fa-twitter{
+    color:#00aced;
+}
+.fa-linkedin{
+    color:#0077B5;
+}
+.fa-instagram{
+    color:#517fa4;
+}
+.fa-youtube{
+    color:#bb0000;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+    color:#d5d5d5; /*---transparencia --*/
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+.social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+.carousel-caption {
+        top: 45%;
+}
+.carousel-caption h1 {
+        font-size: 350%;
+}
+.carousel-caption h3 {
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+}
+.carousel-caption .btn {
+        font-size: 95%;
+        padding: 8px 14px;
+}
+.display-4 {
+    font-size:200%;
+}
+.social a{
+    font-size: 2.5em;
+    padding: 1.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption {
+        top: 40%;
+}
+.carousel-caption h1 {
+    font-size: 250%;
+}
+.carousel-caption h3 {
+    font-size: 110%;
+}
+.carousel-caption .btn {
+    font-size: 90%;
+    padding: 4px 8px;
+}
+.carousel-indicators {
+    display: none;
+}
+.social a{
+    font-size: 2em;
+    padding: .7rem;
+    }
+}
+
+
+
+/*---bug fixes --*/
+/*---Firefox --*/
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+/*---backgroung image fix---*/
+figure {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0 !important;
+}
+
+
+
+/*
+Extra small (xs) devices (ecrãs retrato menores que 576px)
+Não é preciso media query. Default in Bootstrap.
+
+Small (sm) devices (ecrãs paisagem, acima de 576px)
+@media (min-width: 576px) {...}
+
+Medium (md) devices (tablets, acima de 768px)
+@media (min-width: 768px) {...}
+
+Large (lg) devices (acima de 992px)
+@media (min-width: 992px) {...}
+
+Extra (xl) large devices (acima de 1200px)
+@media (min-width: 1200px) {...}
+
+*/
+
+
+
+
+
+
+
