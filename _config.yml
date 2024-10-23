@@ -1,0 +1,7 @@
+title: Zito Cavaleiro
+#logo: /assets/img/headshot_circle.png
+#https://github.com/zcavaleiro/portfolio-example/blob/main/img/picture_logo.png
+logo: /img/picture_logo.png
+#description: text below image
+show_downloads: true
+theme: jekyll-theme-minimal
